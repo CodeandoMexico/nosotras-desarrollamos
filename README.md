@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+Static site Boilerplate (w/ Heroku Support)
+==============================
 
-You can use the [editor on GitHub](https://github.com/CodeandoMexico/NosotrasDesarrollamos/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This project is a boilerplate for single page apps, heroku-ready.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+##Dependencies
+There are actually no dependencies to make changes in the project, you can go
+the 'app' folder and open the index.html file in a browser.
 
-### Markdown
+Optional
+- Nodejs and NPM
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+##Use (**Nodejs**)
+Remember to load all your webapp files inside the 'app' directory.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+npm install
+node web.js
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+##Use (**Heroku**)
 
-### Jekyll Themes
+```
+git remote add my_remote_alias git@heroku.com:my-remote.git
+git push my_remote_alias master
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CodeandoMexico/NosotrasDesarrollamos/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+##Licencia
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+_Available under the license: GNU Affero General Public License (AGPL) v3.0. Read the document [LICENSE](/LICENSE) for more information._

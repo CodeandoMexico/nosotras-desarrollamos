@@ -1,0 +1,29 @@
+{
+  "name": "static-heroku-website",
+  "version": "0.0.1",
+  "description": "This app is a boilerplate for a static website in heroku using node.",
+  "main": "web.js",
+  "dependencies": {
+    "express": "^4.10.1",
+    "gzippo": "^0.2.0",
+    "morgan": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jimenezjrs/static-heroku-website.git"
+  },
+  "keywords": [
+    "heroku",
+    "node"
+  ],
+  "author": "Raúl Jiménez <jimenezjrs@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimenezjrs/static-heroku-website/issues"
+  },
+  "homepage": "https://github.com/jimenezjrs/static-heroku-website"
+}
